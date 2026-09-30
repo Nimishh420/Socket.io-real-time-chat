@@ -1,0 +1,24 @@
+{
+  "name": "socket.io-real-time-chat",
+  "version": "1.0.0",
+  "description": "Real-time chat server with Socket.io rooms, presence, and message history",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --check index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/Nimishh420/Socket.io-real-time-chat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.4"
+  }
+}
